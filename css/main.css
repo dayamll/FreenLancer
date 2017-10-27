@@ -1,0 +1,64 @@
+/*
+ * Estilos de tu proyecto
+ */
+ body {
+     background-color: lightseagreen;
+     box-sizing: border-box;
+     color: #303030;
+     font-family: 'Raleway', sans-serif;
+     margin: 0;
+     padding: 5px;
+ }
+
+ nav {
+    position: absolute;
+    right: 3%;
+    top: 20px;
+    transform: translateX(-50%);
+  }
+
+  .text-uppercase {
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  ul li {
+    display: inline;
+    margin: 5px;
+    list-style: none;
+  }
+
+  header {
+    background-color: rgb(55, 59, 71);
+    box-sizing: border-box;
+    color: white;
+    font-family:sans-serif;
+    height: 20%;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+    
+  }
+
+  .box-header {
+    display: inline-block;
+  }
+  #mainNav {
+    display: inline-block;
+    font-family: Montserrat, 'Helvetica Neue' ,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #2c3e50;
+  }
+
+  
+  
+ 
+  
+  
