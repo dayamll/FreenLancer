@@ -1,4 +1,4 @@
-/*
+    /*
  * Estilos de tu proyecto
  */
 
@@ -65,6 +65,7 @@ div.black::after {
   background-color: black;
   width: 110px;
 }
+
 div.star::before {
   display: inline-block;
   height: 5px;
@@ -73,6 +74,7 @@ div.star::before {
   background-color: white;
   width: 110px;
 }
+
 div.star::after {
   display: inline-block;
   height: 5px;
@@ -88,6 +90,7 @@ h1 {
   padding: 15px;
   margin: 15px;
 }
+
 .secondTitle {
   font-size: 30px;
   color: black;
@@ -102,7 +105,7 @@ h1 {
   margin-bottom: 15px;
 }
 
-.drawings img{
+.drawings img {
   height: 253px;
   width: 350px;
 }
@@ -160,4 +163,4 @@ ul {
 
 .centrado {
   text-align: center;
-}
+  {
