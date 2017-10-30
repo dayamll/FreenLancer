@@ -9,45 +9,56 @@
 
 body {
   box-sizing: border-box;
-  color: #303030;
-  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: black;
+  font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
+/*Clase para cambiar el estilo del titulo */
 .title {
   display: inline-block;
-  font-size: 35px;
+  font-size: 2em;
 }
-
+/* Estilos para la primera seccion */
 .firstSection {
   background-color: #18bc9c;
-  padding: 100px;
+  padding: 200px;
 }
 
+/* Estilos para la segunda seccion */
 .secondSection {
   background-color: #fff;
   padding: 100px;
 }
 
+/* Estilos para la tercera seccion */
 .thirdSection {
   background-color: #18bc9c;
   padding: 100px;
+  text-align: center;
 }
 
+/* Estilos para la cuarta seccion */
 .forthSection {
   background-color: #fff;
   padding: 100px;
 }
 
+/* Estilos para la quinta seccion */
+.fiveSection {
+  background-color: #fff;
+  padding: 100px;
+}
+
+/* Estilos para el icono de estrella de la primera seccion*/
 i.fa-star {
   color: white;
   font-size: 30px;
 }
-
+/* Estilos para el icono de estrella para la segunda seccion */
 i.black {
   color: #000000;
   font-size: 30px;
 }
-
+/* Ceudoclase para los br de la segunda seccion */
 div.black::before {
   display: inline-block;
   height: 5px;
@@ -56,7 +67,7 @@ div.black::before {
   background-color: black;
   width: 110px;
 }
-
+/* Ceudoclase para los br de la segunda seccion */
 div.black::after {
   display: inline-block;
   height: 5px;
@@ -65,6 +76,7 @@ div.black::after {
   background-color: black;
   width: 110px;
 }
+/* Ceudoclase para los br de la primera seccion */
 div.star::before {
   display: inline-block;
   height: 5px;
@@ -73,6 +85,7 @@ div.star::before {
   background-color: white;
   width: 110px;
 }
+/* Ceudoclase para los br de la primera seccion */
 div.star::after {
   display: inline-block;
   height: 5px;
@@ -81,13 +94,48 @@ div.star::after {
   background-color: white;
   width: 120px;
 }
-
-h1 {
-  font-size: 80px;
+/* Clase para titulo de la primera seccion */
+.letters {
+  font-size: 4.75em;
   color: white;
   padding: 15px;
   margin: 15px;
 }
+/* Clase para titulo de la primera seccion */
+.letters2 {
+  font-size: 30px;
+  color: white;
+  padding: 15px;
+  margin: 15px;
+}
+/* Clase para parrafo de la tercera seccion */
+.side {
+  color: white;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  vertical-align: text-top;
+}
+/* Ceudoclases para parrafo de la tercera seccion */
+.middle {
+  display: inline-block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+/* Clase para primer parrafo de la tercera seccion */
+.firstStile {
+  line-height: 1.5;
+  text-align: left;
+}
+/* Clase para segundo parrafo de la tercera seccion */
+.secondStile {
+  line-height: 1.5;
+  text-align: right;
+}
+
 .secondTitle {
   font-size: 30px;
   color: black;
@@ -95,16 +143,84 @@ h1 {
   margin: 10px;
   text-align: center;
 }
-
-.drawings {
-  display: inline;
-  margin: 10px;
-  margin-bottom: 15px;
+/* Clase para boton de la tercera seccion */
+.btn {
+  display: block;
+  padding: 10px;
+  line-height: 1.5;
+  border-radius: 10px;
+  margin-top: 15px;
+  box-sizing: border-box;
+  border: solid 2px #fff;
+  color: #fff;
+  margin-left: 450px;
+  margin-right: 450px;
+}
+/* Clase para boton de la quinta seccion */
+.btn2 {
+  display: block;
+  padding: 10px;
+  line-height: 1.5;
+  border-radius: 10px;
+  margin-top: 150px;
+  margin-left: 210px;
+  box-sizing: border-box;
+  border: solid 2px #fff;
+  color: #fff;
+  background: #18bc9c;
+  width: 8%;
+  text-align: center;
+}
+/* Estilos para icono del footer  */
+i.fa-facebook {
+  border-radius: 5px;
 }
 
-.drawings img{
+.contac {
+  text-align: center;
+  font-size: 35px;
+  margin: 0;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #18bc9c;
+}
+
+.control {
+  display: block;
+  width: 80%;
+  padding: 15px 10px;
+  font-size: 25px;
+  line-height: 2;
+  color: #495057;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ced4da;
+  box-sizing: border-box;
+}
+/* Estilos para imputs */
+.formulario {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: -150px;
+}
+/* Estilos para imagenes*/
+.drawings {
+  display: inline-block;
+  padding: 6px;
+}
+/* Estilos para imagenes*/
+.drawings img {
   height: 253px;
   width: 350px;
+}
+
+.whitecolor {
+  color: white;
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 25px;
 }
 
 h6 {
@@ -112,7 +228,7 @@ h6 {
   color: white;
   padding: 10px;
 }
-
+/* Estilos para header */
 header {
   background-color: #2c3e50;
   box-sizing: border-box;
@@ -128,7 +244,11 @@ header {
 #mainNav {
   background: #2c3e50;
   display: inline-block;
-  text-transform: uppercase;
+}
+/* Fijado del header */
+.menu {
+  position: fixed;
+  width: 100%;
 }
 
 .container {
@@ -137,7 +257,7 @@ header {
   /*outline: 1px solid yellow;*/
   font-weight: 700;
 }
-
+/* Mayusculas */
 .text-uppercase {
   text-transform: uppercase;
 }
@@ -157,7 +277,52 @@ ul {
   position: relative;
   top: 0.6em;
 }
-
+/* Centrado de texto */
 .centrado {
   text-align: center;
+}
+
+footer {
+  height: 400px;
+  background-color: #2c3e50;
+  box-sizing: border-box;
+  color: #fff;
+  padding-top: 50px;
+  text-align: center;
+  line-height: 2.2;
+}
+
+nav#footer {
+  column-count: 3;
+  column-width: 33%;
+  padding: 50px;
+}
+/* altura y ancho del footer */
+.org {
+  height: 250px;
+  width: 400px;
+}
+.espace {
+  font-size: 20px;
+  margin-top: 100px;
+}
+/* Estilos para los iconos del footer */
+i.allicons {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 360px;
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+}
+.changestile {
+  font-size: 20px;
+}
+a.changestile {
+  font-size: 20px;
+  color: cyan;
+  text-decoration: none;
+}
+a.changestile:hover{
+  text-decoration: underline;
 }
