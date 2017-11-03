@@ -1,8 +1,8 @@
-    /*
+/*
  * Estilos de tu proyecto
  */
 
-* {
+ * {
   margin: 0px;
   padding: 0px;
 }
@@ -76,7 +76,7 @@ div.black::after {
   background-color: black;
   width: 110px;
 }
-
+/* Ceudoclase para los br de la primera seccion */
 div.star::before {
   display: inline-block;
   height: 5px;
@@ -85,6 +85,7 @@ div.star::before {
   background-color: white;
   width: 110px;
 }
+/* Ceudoclase para los br de la primera seccion */
 div.star::after {
   display: inline-block;
   height: 5px;
@@ -106,6 +107,33 @@ div.star::after {
   color: white;
   padding: 15px;
   margin: 15px;
+}
+/* Clase para parrafo de la tercera seccion */
+.side {
+  color: white;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  vertical-align: text-top;
+}
+/* Ceudoclases para parrafo de la tercera seccion */
+.middle {
+  display: inline-block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+/* Clase para primer parrafo de la tercera seccion */
+.firstStile {
+  line-height: 1.5;
+  text-align: left;
+}
+/* Clase para segundo parrafo de la tercera seccion */
+.secondStile {
+  line-height: 1.5;
+  text-align: right;
 }
 
 .secondTitle {
@@ -154,6 +182,34 @@ i.fa-facebook {
   margin: 0;
 }
 
+.btn:hover {
+  background: #fff;
+  color: #18bc9c;
+}
+
+.control {
+  display: block;
+  width: 80%;
+  padding: 15px 10px;
+  font-size: 25px;
+  line-height: 2;
+  color: #495057;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ced4da;
+  box-sizing: border-box;
+}
+/* Estilos para imputs */
+.formulario {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: -150px;
+}
+/* Estilos para imagenes*/
+.drawings {
+  display: inline-block;
+  padding: 6px;
+}
+/* Estilos para imagenes*/
 .drawings img {
   height: 253px;
   width: 350px;
@@ -196,7 +252,7 @@ header {
 }
 
 .container {
-  width: 1100px;
+  width: 100%;
   margin: auto;
   /*outline: 1px solid yellow;*/
   font-weight: 700;
@@ -224,4 +280,49 @@ ul {
 /* Centrado de texto */
 .centrado {
   text-align: center;
+}
+
+footer {
+  height: 400px;
+  background-color: #2c3e50;
+  box-sizing: border-box;
+  color: #fff;
+  padding-top: 50px;
+  text-align: center;
+  line-height: 2.2;
+}
+
+nav#footer {
+  column-count: 3;
+  column-width: 33%;
+  padding: 50px;
+}
+/* altura y ancho del footer */
+.org {
+  height: 250px;
+  width: 400px;
+}
+.espace {
+  font-size: 20px;
+  margin-top: 100px;
+}
+/* Estilos para los iconos del footer */
+i.allicons {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 360px;
+  height: 20px;
+  width: 20px;
+  font-size: 20px;
+}
+.changestile {
+  font-size: 20px;
+}
+a.changestile {
+  font-size: 20px;
+  color: cyan;
+  text-decoration: none;
+}
+a.changestile:hover{
+  text-decoration: underline;
 }
